@@ -1,0 +1,20 @@
+/*
+ Class
+*/
+.scroll {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+}
+
+.scroll_button {
+    display: block;
+    background: #000;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
