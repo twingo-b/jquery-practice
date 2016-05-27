@@ -1,0 +1,38 @@
+/*
+ Elements
+*/
+ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+li {
+    float: left;
+    width: 100px;
+    list-style-type: none;
+    text-align: center;
+}
+
+/*
+ Class
+*/
+.top_nav {
+    height: 50px;
+}
+.top_nav li:last-child:hover {
+    border: 1px solid #ebadb6;
+}
+
+.app_bar ul {
+    display: none;
+}
+
+.app_bar.toggle_menu p {
+    display: none;
+}
+
+.app_bar.toggle_menu ul {
+    display: block;
+}
+
